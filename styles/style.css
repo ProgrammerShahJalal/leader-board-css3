@@ -1,4 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* header styles */
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: blue;
+    height: 94px;
+
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    
+    margin-left: 20px;
+}
+.icon{
+    width: 42px;
+    height: 51px;
+}
+.text-logo{
+    color: white;
+    display: flex;
+    column-gap: 10px;
+}
+
 /* common styles or utilities */
 main{
     display: flex;
